@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Carpetas de datos grandes
+mutation_data/
+cancer_analysis_data/
+brain_data/
