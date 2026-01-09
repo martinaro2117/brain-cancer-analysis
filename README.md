@@ -15,6 +15,7 @@ El flujo de trabajo incluye:
 ---
 
 ## 📂 Estructura del repositorio
+```
 ├── brain_data/ # Datos RNA-seq descargados desde GDC
 ├── mutation_data/ # Archivos .maf.gz con mutaciones
 ├── Downloaded_data/
@@ -30,7 +31,7 @@ El flujo de trabajo incluye:
 │ └── knowseqReport_updated.R
 ├── main_analysis.R # Script principal
 └── README.md
-
+```
 ---
 
 ## 🧬 Datos
@@ -76,7 +77,7 @@ library(CORElearn)
 
 --- 
 
-## Flujo de análisis
+## 🧪 Flujo de análisis
 ### Procesamiento RNA-seq
 
 - Conversión de archivos descargados a conteos
@@ -121,13 +122,32 @@ library(CORElearn)
   - Specificity
   - Confusion Matrix
 
-### Enriquecimiento funcional
+---
+
+## 📊 Enriquecimiento funcional
 
 - Gene Ontology (GO)
 - Pathways
 - Enfermedades asociadas
 - Reporte automático con KnowSeq
 
-### Licencia
+---
+
+## ⚠️ Notas importantes
+
+- El dataset presenta desbalance de clases, por lo que técnicas como SMOTE pueden ser consideradas en futuras iteraciones.
+- El análisis está diseñado para ser reproducible y modular.
+- Todos los pasos están integrados en un único script principal.
+
+---
+
+## 👨‍🔬 Autores
+
+Trabajo académico de análisis de datos genómicos basado en datos públicos de TCGA.
+Código desarrollado por incluir a los profes, Martina Riera y Francisco Javier García. 
+
+---
+
+## 📜 Licencia
 Este proyecto se distribuye bajo licencia MIT.
 Los datos utilizados pertenecen al The Cancer Genome Atlas (TCGA) y están sujetos a sus condiciones de uso.
